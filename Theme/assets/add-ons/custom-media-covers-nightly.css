@@ -15,6 +15,7 @@
     --colorOverlayRecordedmoviesCover: rgb(52, 52, 52);
     --colorOverlayRecordedtvCover: rgb(120, 100, 28);
     --colorOverlayAnimeCover: rgb(255, 145, 164);
+    --colorOverlaySportsCover: rgb(233, 126, 60);
     --urlMoviesCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/movies.webp);
     --urlTvshowsCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/tvshows.webp);
     --urlLivetvCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/livetv.webp);
@@ -28,6 +29,7 @@
     --urlRecordedmoviesCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/recordedmovies.webp);
     --urlRecordedtvCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/recordedtv.webp);
     --urlAnimeCover: url(https://raw.githubusercontent.com/buhbbl/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/anime.webp);
+    --urlSportsCover: url(https://raw.githubusercontent.com/buhbbl/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/sports.webp);
 }
 
 [data-type="CollectionFolder"] .defaultCardBackground,
@@ -139,4 +141,9 @@
 [data-prefix="ANI"] .cardContent {
     background-color: var(--colorOverlayAnimeCover) !important;
     background-image: var(--urlAnimeCover) !important;
+}
+
+[data-prefix="SPO"] .cardContent {
+    background-color: var(--colorOverlaySportsCover) !important;
+    background-image: var(--urlSportsCover) !important;
 }
