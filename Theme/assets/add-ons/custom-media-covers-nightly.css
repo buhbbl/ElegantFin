@@ -28,8 +28,8 @@
     --urlMixedCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/mixed.webp);
     --urlRecordedmoviesCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/recordedmovies.webp);
     --urlRecordedtvCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/recordedtv.webp);
-    --urlAnimeCover: url(https://raw.githubusercontent.com/buhbbl/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/anime.webp);
-    --urlSportsCover: url(https://raw.githubusercontent.com/buhbbl/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/sports.webp);
+    --urlAnimeCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/anime.webp);
+    --urlSportsCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/sports.webp);
 }
 
 [data-type="CollectionFolder"] .defaultCardBackground,
