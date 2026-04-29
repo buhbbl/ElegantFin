@@ -28,8 +28,8 @@
     --urlMixedCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/mixed.webp);
     --urlRecordedmoviesCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/recordedmovies.webp);
     --urlRecordedtvCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/recordedtv.webp);
-    --urlAnimeCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/anime.webp);
-    --urlSportsCover: url(https://raw.githubusercontent.com/lscambo13/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/sports.webp);
+    --urlAnimeCover: url(https://raw.githubusercontent.com/buhbbl/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/anime.webp);
+    --urlSportsCover: url(https://raw.githubusercontent.com/buhbbl/ElegantFin/refs/heads/main/Theme/assets/img/library-covers/sports.webp);
 }
 
 [data-type="CollectionFolder"] .defaultCardBackground,
@@ -123,27 +123,27 @@
     background-image: var(--urlPlaylistsCover) !important;
 }
 
-[data-prefix="MIX"] .cardContent {
+[data-prefix="MIX"] .cardContent[aria-label="Mixed"] {
     background-color: var(--colorOverlayMixedCover) !important;
     background-image: var(--urlMixedCover) !important;
 }
 
-[data-collectiontype="movies"][data-prefix="REC"] .cardContent {
+[data-collectiontype="movies"][data-prefix="REC"] .cardContent[aria-label="Recorded Movies"] {
     background-color: var(--colorOverlayRecordedmoviesCover) !important;
     background-image: var(--urlRecordedmoviesCover) !important;
 }
 
-[data-prefix="REC"] .cardContent {
+[data-prefix="REC"] .cardContent[aria-label="Recorded TV"] {
     background-color: var(--colorOverlayRecordedtvCover) !important;
     background-image: var(--urlRecordedtvCover) !important;
 }
 
-[data-prefix="ANI"] .cardContent {
+[data-prefix="ANI"] .cardContent[aria-label="Anime"] {
     background-color: var(--colorOverlayAnimeCover) !important;
     background-image: var(--urlAnimeCover) !important;
 }
 
-[data-prefix="SPO"] .cardContent {
+[data-prefix="SPO"] .cardContent[aria-label="Sports"] {
     background-color: var(--colorOverlaySportsCover) !important;
     background-image: var(--urlSportsCover) !important;
 }
